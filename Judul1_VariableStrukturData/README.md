@@ -13,53 +13,51 @@ input, serta operasi append dan pop.
 - Fungsi menu()
 <img width="804" height="520" alt="fungsi menu" src="https://github.com/user-attachments/assets/c8582702-f450-43a3-913e-695b0ce9102c" />
 
-def menu():
+#def menu():
 Mendefinisikan fungsi untuk menampilkan menu utama.
 
-print("\n=== MENU UTAMA ===")
-
+#print("\n=== MENU UTAMA ===")
 Menampilkan judul menu.
 
-print("1. Lihat Jadwal")
-print("2. Tambah Jadwal")
-print("3. Hapus Jadwal")
-print("4. Keluar")
+#print("1. Lihat Jadwal")
+#print("2. Tambah Jadwal")
+#print("3. Hapus Jadwal")
+#print("4. Keluar")
 Menampilkan opsi pilihan untuk user.
 
 
 - Fungsi lihat_jadwal()
 <img width="1110" height="710" alt="fungsi lihat jadwal" src="https://github.com/user-attachments/assets/97fcadf7-e68d-4d2d-8c5a-a2f19cce7322" />
 
-def lihat_jadwal(list_hari, list_jadwal):
+#def lihat_jadwal(list_hari, list_jadwal):
 Menerima dua parameter: list_hari dan list_jadwal.
 
-kosong = True
+#kosong = True
 Untuk mengecek apakah semua jadwal kosong.
 
-
-print("\n=== JADWAL KULIAH ===")
+#print("\n=== JADWAL KULIAH ===")
 Menampilkan judul.
 
-for i in range(len(list_hari)):
+#for i in range(len(list_hari)):
 Loop untuk semua hari (indeks 0–6).
 
-if list_jadwal[i] != []:
+#if list_jadwal[i] != []:
 Cek apakah hari tersebut punya jadwal.
 
-kosong = False
+#kosong = False
 Jika ada isi, berarti tidak kosong.
 
-print(f"{list_hari[i]}:")
+#print(f"{list_hari[i]}:")
 Tampilkan nama hari.
 
-for j in range(len(list_jadwal[i])):
+#for j in range(len(list_jadwal[i])):
 Loop semua mata kuliah di hari tersebut.
 
-print(f"  {j}. {list_jadwal[i][j]}")
+#print(f"  {j}. {list_jadwal[i][j]}")
 Tampilkan indeks dan nama mata kuliah.
 
-if kosong:
-print("Jadwal masih kosong.")
+#if kosong:
+  #print("Jadwal masih kosong.")
 Jika tidak ada jadwal sama sekali, program akan menampilkan “Jadwal masih kosong”.
 
 
