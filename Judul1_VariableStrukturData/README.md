@@ -11,6 +11,7 @@ input, serta operasi append dan pop.
 
 ## SOURCE CODE
 - Fungsi menu()
+<img width="804" height="520" alt="fungsi menu" src="https://github.com/user-attachments/assets/c8582702-f450-43a3-913e-695b0ce9102c" />
 
 def menu():
 Mendefinisikan fungsi untuk menampilkan menu utama.
@@ -27,6 +28,7 @@ Menampilkan opsi pilihan untuk user.
 
 
 - Fungsi lihat_jadwal()
+<img width="1110" height="710" alt="fungsi lihat jadwal" src="https://github.com/user-attachments/assets/97fcadf7-e68d-4d2d-8c5a-a2f19cce7322" />
 
 def lihat_jadwal(list_hari, list_jadwal):
 Menerima dua parameter: list_hari dan list_jadwal.
@@ -62,7 +64,7 @@ Jika tidak ada jadwal sama sekali, program akan menampilkan “Jadwal masih koso
 
 
 - Fungsi tambah_jadwal()
-
+<img width="1496" height="1052" alt="fungsi tambah jadwal" src="https://github.com/user-attachments/assets/437d0709-dc10-48d2-9435-a0aa4f467eb1" />
 
 def tambah_jadwal(list_hari, list_jadwal):
 Fungsi untuk menambah data dari input ke list_jadwal.
@@ -96,6 +98,7 @@ Konfirmasi ke user.
 
 
 - Fungsi hapus_jadwal()
+<img width="1372" height="1622" alt="fungsi hapus jadwal" src="https://github.com/user-attachments/assets/a210df61-c263-47ed-b849-4a84cb6f889c" />
 
 
 def hapus_jadwal(list_hari, list_jadwal):
@@ -150,6 +153,7 @@ Validasi jika indeks salah.
 
 
 - Fungsi main()
+<img width="1542" height="1394" alt="fungsi main" src="https://github.com/user-attachments/assets/3c749b09-4f83-4b7d-adc2-b027810fdf25" />
 
 
 list_hari = ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"]
@@ -189,6 +193,7 @@ Menangani input diluar panduan.
 
 
 - Jalankan program
+<img width="696" height="368" alt="main()" src="https://github.com/user-attachments/assets/adff8d8d-3c4f-4707-be2a-14b8daa07149" />
 
 
 if __name__ == "__main__":
