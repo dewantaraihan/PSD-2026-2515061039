@@ -209,9 +209,9 @@ Menjalankan program hanya jika file dieksekusi langsung. Program akan memanggil 
 ## 4. Keluar
 ## Pilihan: 2
 
-## Penjelasan:
-Program pertama kali menampilkan menu dari fungsi menu().
-User memasukkan 2, artinya memilih fitur Tambah Jadwal.
+## Penjelasan:  
+Program pertama kali menampilkan menu dari fungsi menu().  
+User memasukkan 2, artinya memilih fitur Tambah Jadwal.  
 
 
 ## === PANDUAN INPUT HARI ===
@@ -222,17 +222,17 @@ User memasukkan 2, artinya memilih fitur Tambah Jadwal.
 ## 4 = Jumat
 ## 5 = Sabtu
 ## 6 = Minggu
-##Pilih hari (0-6): 1
-##Masukkan mata kuliah: RPL
-##Jadwal RPL berhasil ditambahkan ke hari Selasa
+## Pilih hari (0-6): 1
+## Masukkan mata kuliah: RPL
+## Jadwal RPL berhasil ditambahkan ke hari Selasa
 
-## Penjelasan:
-Program menampilkan panduan indeks hari.
-User memilih:
-## 1  = Selasa
-Mata kuliah: RPL
-Data disimpan ke:
-list_jadwal[1] = ["RPL"]
+## Penjelasan:  
+Program menampilkan panduan indeks hari.  
+User memilih:  
+1  = Selasa  
+Mata kuliah: RPL  
+Data disimpan ke:  
+list_jadwal[1] = ["RPL"]  
 
 
 ## === MENU UTAMA ===
@@ -242,9 +242,9 @@ list_jadwal[1] = ["RPL"]
 ## 4. Keluar
 ## Pilihan: 2
 
-## Penjelasan:
-Program kembali ke menu utama (loop while).
-User memilih lagi 2 (Tambah Jadwal).
+## Penjelasan:  
+Program kembali ke menu utama (loop while).  
+User memilih lagi 2 (Tambah Jadwal).  
 
 
 
