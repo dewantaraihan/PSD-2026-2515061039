@@ -317,9 +317,9 @@ User memilih 3 (Hapus Jadwal).
 User memilih Selasa (1).  
 
 
-##Jadwal hari Selasa:
-##0. RPL
-##1. Struktur Data
+## Jadwal hari Selasa:
+## 0. RPL
+## 1. Struktur Data
 ## Pilih indeks yang ingin dihapus: 0
 ## Jadwal berhasil dihapus
 
