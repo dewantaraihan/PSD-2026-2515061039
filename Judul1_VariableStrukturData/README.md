@@ -366,3 +366,8 @@ Struktur Data sekarang di index 0.
 User memilih 4 (Keluar).  
 running = False → loop berhenti.  
 Program selesai.  
+
+
+
+## Link YouTube
+https://youtu.be/lqQ5O94McRY?si=1hqhAbX1WMKkpQxI
