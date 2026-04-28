@@ -19,10 +19,10 @@ Mendefinisikan fungsi untuk menampilkan menu utama.
 print("\n=== MENU UTAMA ===")  
 Menampilkan judul menu.
 
-#print("1. Lihat Jadwal")  
-#print("2. Tambah Jadwal")  
-#print("3. Hapus Jadwal")  
-#print("4. Keluar")  
+print("1. Lihat Jadwal")  
+print("2. Tambah Jadwal")  
+print("3. Hapus Jadwal")  
+print("4. Keluar")  
 Menampilkan opsi pilihan untuk user.
 
 
@@ -81,17 +81,17 @@ except ValueError:
   print("Input harus angka!")  
 Menangani jika user input non-angka.
 
-if index < 0 or index >= len(list_hari):
-print("Indeks hari tidak valid!")
+if index < 0 or index >= len(list_hari):  
+  print("Indeks hari tidak valid!")  
 Menangani agar indeks tidak keluar batas.
 
-matkul = input("Masukkan mata kuliah: ")
+matkul = input("Masukkan mata kuliah: ")  
 Input nama mata kuliah.
 
-list_jadwal[index].append(matkul)
+list_jadwal[index].append(matkul)  
 Menambahkan input matkul dari user ke list sesuai hari.
 
-print(f"Jadwal {matkul} berhasil ditambahkan ke hari {list_hari[index]}")
+print(f"Jadwal {matkul} berhasil ditambahkan ke hari {list_hari[index]}")  
 Konfirmasi ke user.
 
 
@@ -99,54 +99,53 @@ Konfirmasi ke user.
 <img width="1372" height="1622" alt="fungsi hapus jadwal" src="https://github.com/user-attachments/assets/a210df61-c263-47ed-b849-4a84cb6f889c" />
 
 
-def hapus_jadwal(list_hari, list_jadwal):
+def hapus_jadwal(list_hari, list_jadwal):  
 Fungsi untuk menghapus data.
 
-print("\n=== PANDUAN INPUT HARI ===")
-for i in range(len(list_hari)):
+print("\n=== PANDUAN INPUT HARI ===")  
+for i in range(len(list_hari)):  
 
-print(f"{i} = {list_hari[i]}")
+   print(f"{i} = {list_hari[i]}")  
 Menampilkan panduan indeks hari.
 
-try:
-index = int(input("Pilih hari (0-6): "))
+try:  
+  index = int(input("Pilih hari (0-6): "))  
 Meminta user memilih hari dalam bentuk angka.
 
-except ValueError:
-print("Input harus angka!")
+except ValueError:  
+  print("Input harus angka!")  
 Menangani jika user input non-angka.
 
-if index < 0 or index >= len(list_hari):
-print("Indeks hari tidak valid!")
+if index < 0 or index >= len(list_hari):  
+  print("Indeks hari tidak valid!")  
 Menangani agar indeks tidak keluar batas.
 
-if list_jadwal[index] == []:
-print("Tidak ada jadwal di hari tersebut.")
+if list_jadwal[index] == []:  
+  print("Tidak ada jadwal di hari tersebut.")  
 Cek apakah jadwal di hari tersebut kosong.
 
-print(f"\nJadwal hari {list_hari[index]}:")
-for i in range(len(list_jadwal[index])):
-print(f"{i}. {list_jadwal[index][i]}")
+print(f"\nJadwal hari {list_hari[index]}:")  
+for i in range(len(list_jadwal[index])):  
+  print(f"{i}. {list_jadwal[index][i]}")  
 Menampilkan jadwal pada hari tersebut
 
-try:
-hapus_index = int(input("Pilih indeks yang ingin dihapus: "))
+try:  
+  hapus_index = int(input("Pilih indeks yang ingin dihapus: "))  
 User memilih jadwal yang ingin dihapus.
 
-
-except ValueError:
-print("Input harus angka!")
+except ValueError:  
+  print("Input harus angka!")  
 Menangani jika user input non angka
 
-if hapus_index >= 0 and hapus_index < len(list_jadwal[index]):
+if hapus_index >= 0 and hapus_index < len(list_jadwal[index]):  
 Menangani agar indeks tidak keluar batas
 
-list_jadwal[index].pop(hapus_index)
-print("Jadwal berhasil dihapus!")
+list_jadwal[index].pop(hapus_index)  
+print("Jadwal berhasil dihapus!")  
 Menghapus data berdasarkan indeks.
 
-else:
-print("Indeks tidak valid!")
+else:  
+  print("Indeks tidak valid!")  
 Validasi jika indeks salah.
 
 
@@ -154,39 +153,39 @@ Validasi jika indeks salah.
 <img width="1542" height="1394" alt="fungsi main" src="https://github.com/user-attachments/assets/3c749b09-4f83-4b7d-adc2-b027810fdf25" />
 
 
-list_hari = ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"]
+list_hari = ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"]  
 Inisialisasi hari.
 
-list_jadwal = [[] for _ in range(7)]
+list_jadwal = [[] for _ in range(7)]  
 Membuat list kosong untuk tiap hari (nested list).
 
-running = True
+running = True  
 Untuk kontrol loop program.
 
 
-while running:
-menu()
+while running:  
+  menu()  
 Loop utama program untuk memanggil fungsi menu(menu terus berjalan).
 
-try:
-choice = int(input("Pilihan: "))
+try:  
+  choice = int(input("Pilihan: "))  
 Input pilihan menu.
 
-except ValueError:
-print("Masukkan angka yang valid!")
+except ValueError:  
+  print("Masukkan angka yang valid!")  
 Untuk menangani input non angka
 
-if choice == 1:
+if choice == 1:  
 Menjalankan fungsi lihat_jadwal.
-elif choice == 2:
+elif choice == 2:  
 Menjalankan fungsi tambah_jadwal.
-elif choice == 3:
+elif choice == 3:  
 Menjalankan fungsi hapus_jadwal.
-elif choice == 4:
-running = False
+elif choice == 4:  
+running = False  
 Menghentikan program.
-else:
-print("Pilihan tidak valid!")
+else:  
+  print("Pilihan tidak valid!")  
 Menangani input diluar panduan.
 
 
@@ -194,13 +193,13 @@ Menangani input diluar panduan.
 <img width="696" height="368" alt="main()" src="https://github.com/user-attachments/assets/adff8d8d-3c4f-4707-be2a-14b8daa07149" />
 
 
-if __name__ == "__main__":
-main()
+if __name__ == "__main__":  
+  main()  
 Menjalankan program hanya jika file dieksekusi langsung. Program akan memanggil fungsi main().
 
 
-## OUTPUT PROGRAM
 
+## OUTPUT PROGRAM
 
 
 ## === MENU UTAMA ===
