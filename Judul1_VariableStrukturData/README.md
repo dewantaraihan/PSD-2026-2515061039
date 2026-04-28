@@ -256,16 +256,16 @@ User memilih lagi 2 (Tambah Jadwal).
 ## 4 = Jumat
 ## 5 = Sabtu
 ## 6 = Minggu
-##Pilih hari (0-6): 1
-##Masukkan mata kuliah: Struktur Data
-##Jadwal Struktur Data berhasil ditambahkan ke hari Selasa
+## Pilih hari (0-6): 1
+## Masukkan mata kuliah: Struktur Data
+## Jadwal Struktur Data berhasil ditambahkan ke hari Selasa
 
 ## Penjelasan:
-User kembali memilih:
-Hari: 1 (Selasa)
-Mata kuliah: Struktur Data
-Data sekarang:
-list_jadwal[1] = ["RPL", "Struktur Data"]
+User kembali memilih:  
+Hari: 1 (Selasa)  
+Mata kuliah: Struktur Data  
+Data sekarang:  
+list_jadwal[1] = ["RPL", "Struktur Data"]  
 
 
 ## === MENU UTAMA ===
@@ -276,7 +276,7 @@ list_jadwal[1] = ["RPL", "Struktur Data"]
 ## Pilihan: 1
 
 ## Penjelasan:
-User memilih 1 (Lihat Jadwal).
+User memilih 1 (Lihat Jadwal).  
 
 
 ## === JADWAL KULIAH ===
@@ -285,12 +285,11 @@ User memilih 1 (Lihat Jadwal).
 ## 1. Struktur Data
 
 ## Penjelasan:
-Program melakukan loop seluruh hari.
-Hanya Selasa yang memiliki isi.
-Indeks ditampilkan:
-## 0 = RPL
-## 1 = Struktur Data
-
+Program melakukan loop seluruh hari.  
+Hanya Selasa yang memiliki isi.  
+Indeks ditampilkan:  
+0 = RPL
+1 = Struktur Data
 
 
 ## === MENU UTAMA ===
@@ -301,7 +300,7 @@ Indeks ditampilkan:
 ## Pilihan: 3
 
 ## Penjelasan:
-User memilih 3 (Hapus Jadwal).
+User memilih 3 (Hapus Jadwal).  
 
 
 ## === PANDUAN INPUT HARI ===
@@ -312,26 +311,26 @@ User memilih 3 (Hapus Jadwal).
 ## 4 = Jumat
 ## 5 = Sabtu
 ## 6 = Minggu
-##Pilih hari (0-6): 1
+## Pilih hari (0-6): 1
 
 ## Penjelasan:
-User memilih Selasa (1).
+User memilih Selasa (1).  
 
 
 ##Jadwal hari Selasa:
 ##0. RPL
 ##1. Struktur Data
-##Pilih indeks yang ingin dihapus: 0
-##Jadwal berhasil dihapus
+## Pilih indeks yang ingin dihapus: 0
+## Jadwal berhasil dihapus
 
 ## Penjelasan:
-Program menampilkan semua jadwal di hari tersebut.
-User memilih:
-Index 0 = RPL
-Proses:
-list_jadwal[1].pop(0)
-Data sekarang:
-["Struktur Data"]
+Program menampilkan semua jadwal di hari tersebut.  
+User memilih:  
+Index 0 = RPL  
+Proses:  
+list_jadwal[1].pop(0)  
+Data sekarang:  
+["Struktur Data"]  
 
 
 ## === MENU UTAMA ===
@@ -342,7 +341,7 @@ Data sekarang:
 ## Pilihan: 1
 
 ## Penjelasan:
-User memilih kembali Lihat Jadwal.
+User memilih kembali Lihat Jadwal.  
 
 
 ## === JADWAL KULIAH ===
@@ -350,9 +349,9 @@ User memilih kembali Lihat Jadwal.
 ## 0. Struktur Data
 
 ## Penjelasan:
-Data sudah diperbarui.
-Indeks otomatis berubah.
-Struktur Data sekarang di index 0.
+Data sudah diperbarui.  
+Indeks otomatis berubah.  
+Struktur Data sekarang di index 0.  
 
 
 ## === MENU UTAMA ===
@@ -364,6 +363,6 @@ Struktur Data sekarang di index 0.
 ## Program selesai.
 
 ## Penjelasan:
-User memilih 4 (Keluar).
-running = False → loop berhenti.
-Program selesai.
+User memilih 4 (Keluar).  
+running = False → loop berhenti.  
+Program selesai.  
