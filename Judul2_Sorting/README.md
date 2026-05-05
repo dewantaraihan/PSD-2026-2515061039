@@ -1,6 +1,6 @@
 PROGRAM INSERTION SORT ITEM PADA INVENTORY GAME BERDASARKAN ATTACK
 
-Pendahuluan
+
 Program ini dibuat untuk mengurutkan data item dalam sistem inventory game berdasarkan nilai attack. Algoritma yang digunakan adalah insertion sort, dengan prioritas utama attack tertinggi dan jika sama maka diurutkan berdasarkan nama secara alfabet.
 
 Fungsi insertion_sort  
