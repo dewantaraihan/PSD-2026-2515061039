@@ -8,7 +8,7 @@ Fungsi ini digunakan untuk melakukan proses pengurutan data.
 <img width="1772" height="672" alt="fungsi insertion" src="https://github.com/user-attachments/assets/ca2681c1-f13d-4fa9-8d78-147ab5bb48a1" />
 
 Baris 1: Mendefinisikan fungsi insertion_sort dengan parameter array dan jumlah data.  
-Baris 2: Perulangan dimulai dari indeks ke-1 hingga ke-(n-1) karena elemen pertama dianggap sudah terurut.  
+Baris 2: Perulangan dimulai dari indeks ke-1 hingga ke-n karena elemen pertama dianggap sudah terurut.  
 Baris 3: Menyimpan elemen yang akan dibandingkan ke variabel sementara bernama temp.  
 Baris 4: Menentukan indeks sebelumnya (j = i - 1) untuk proses perbandingan.  
 Baris 6: Melakukan perulangan selama indeks masih valid dan kondisi perbandingan terpenuhi.  
