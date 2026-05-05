@@ -13,8 +13,8 @@ Baris 3: Menyimpan elemen yang akan dibandingkan ke variabel sementara bernama t
 Baris 4: Menentukan indeks sebelumnya (j = i - 1) untuk proses perbandingan.  
 Baris 6: Melakukan perulangan selama indeks masih valid dan kondisi perbandingan terpenuhi.  
 Baris 7: Membandingkan data untuk menentukan urutan (attack terbesar dulu, jika sama maka nama A–Z).  
-Baris 8: Mengurangi indeks untuk melanjutkan perbandingan.  
-Baris 10: Menempatkan elemen pada posisi yang tepat.  
+Baris 8: Mengurangi indeks j untuk melanjutkan perbandingan ke elemen sebelumnya.
+Baris 10: Menempatkan kembali elemen temp ke posisi yang sesuai setelah proses pergeseran selesai.
 
 Fungsi main  
 Fungsi utama program untuk menginput nama item dan nilai attack.  
