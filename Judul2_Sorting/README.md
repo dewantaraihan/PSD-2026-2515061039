@@ -50,6 +50,6 @@ Baris 37: Menampilkan nama item dan nilai attack setelah sorting.
 
 Output Program  
 <img width="354" height="437" alt="Output Tugas Akhir" src="https://github.com/user-attachments/assets/e41e4bcd-f559-4be5-b653-8a7daa975ec9" />
-Output program tersebut merupakan data dari item pada inventory game sebelum dan sesudah diurutkan. Data item diurutkan menggunakan insertion sort secara descending untuk mengurutkan item dari nilai attack yang tertinggi sampai yang terendah.  
+Output program tersebut merupakan data dari item pada inventory game sebelum dan sesudah diurutkan. Data disimpan dalam list inventory untuk diurutkan menggunakan fungsi insertion sort secara descending untuk mengurutkan item dari nilai attack yang tertinggi sampai yang terendah. Jika nilai attack nya sama maka data akan diurutkan berdasarkan abjad  
 
 Link Youtube: https://youtu.be/H5RYJfZhrWE?si=jX_u_h-wclzXA_QY
