@@ -47,3 +47,9 @@ Baris 24: Memeriksa apakah data ditemukan (found bernilai True).
 Baris 25: Menampilkan pesan bahwa nomor plat ditemukan beserta indeksnya.  
 Baris 26: Menjalankan kondisi alternatif jika nomor plat tidak ditemukan.  
 Baris 27: Menampilkan pesan bahwa nomor plat tidak ditemukan.  
+
+Output  
+<img width="948" height="363" alt="output" src="https://github.com/user-attachments/assets/8eac8ada-ca0b-403e-9273-28cf3c19b468" />
+Output tersebut meminta user memasukkan jumlah mobil, kemudian meminta user menginputkan nomor plat mobilnya sebanyak jumlah mobil. Setelah itu user diminta memasukkan nomor plat yang ingin dicari dan sistem akan menjalankan fungsi searching dan menampilkan apakah nomor plat mobil tersebut ditemukan atau tidak.  
+
+Link YouTube: https://youtu.be/LEAWYdeKMgE
