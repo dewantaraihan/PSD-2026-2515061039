@@ -3,7 +3,8 @@ PROGRAM SISTEM PRE-MOVE DALAM GAME CATUR
 Program ini merupakan program yang menerapkan struktur data queue menggunakan Linked List untuk sistem pre-move pada game catur digital. Program bekerja dengan konsep FIFO (First In First Out), sehingga langkah yang pertama dimasukkan akan dijalankan lebih dulu. Class Node digunakan untuk menyimpan data langkah catur, sedangkan class QueueLinkedList mengatur operasi queue seperti menambah langkah (enqueue), menjalankan langkah terdepan (dequeue), melihat langkah terdepan (peek), dan menampilkan seluruh antrean (display).  
 
 PENJELASAN KODE  
-<img width="1356" height="3522" alt="Kode" src="https://github.com/user-attachments/assets/702491ae-c856-4c2a-9a1e-3c4b8627dc84" />
+<img width="1356" height="3522" alt="Kode" src="https://github.com/user-attachments/assets/702491ae-c856-4c2a-9a1e-3c4b8627dc84" />  
+
 Baris 1: Mendefinisikan class Node untuk membuat node pada linked list.  
 Baris 2: Membuat constructor __init__ saat objek node dibuat.  
 Baris 3: Menyimpan data ke dalam node.  
