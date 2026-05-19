@@ -6,13 +6,13 @@ PENJELASAN KODE
 <img width="1356" height="3522" alt="Kode" src="https://github.com/user-attachments/assets/702491ae-c856-4c2a-9a1e-3c4b8627dc84" />  
 
 Baris 1: Mendefinisikan class Node untuk membuat node pada linked list.  
-Baris 2: Membuat constructor __init__ saat objek node dibuat.  
+Baris 2: Membuat fungsi __init__ saat objek node dibuat.  
 Baris 3: Menyimpan data ke dalam node.  
 Baris 4: Mengatur pointer next menjadi None karena belum terhubung ke node lain.  
-Baris 5: Baris kosong untuk merapikan kode.  
+Baris 5: Baris kosong.  
 Baris 6: Baris kosong.  
 Baris 7: Mendefinisikan class QueueLinkedList untuk membuat queue menggunakan linked list.  
-Baris 8: Membuat constructor class queue.  
+Baris 8: Mendefinisikan fungsi class queue.  
 Baris 9: front_ptr menunjuk elemen paling depan queue, awalnya kosong (None).  
 Baris 10: rear_ptr menunjuk elemen paling belakang queue, awalnya kosong (None).  
 Baris 11: Baris kosong.  
@@ -22,9 +22,9 @@ Baris 14: Baris kosong.
 Baris 15: Mendefinisikan fungsi enqueue() untuk menambah data ke queue.  
 Baris 16: Membuat node baru dari data move.  
 Baris 17: Mengecek apakah queue kosong.  
-Baris 18: Jika kosong, front_ptr diarahkan ke node baru.  
-Baris 19: rear_ptr juga diarahkan ke node baru.  
-Baris 20: Jika queue tidak kosong.  
+Baris 18: Jika kosong, maka front_ptr diarahkan ke node baru.  
+Baris 19: rear_ptr diarahkan ke node baru.  
+Baris 20: Langkah queue tidak kosong.  
 Baris 21: Node terakhir dihubungkan ke node baru.  
 Baris 22: rear_ptr dipindahkan ke node baru.  
 Baris 23: Menampilkan pesan bahwa pre-move berhasil ditambahkan.  
@@ -45,7 +45,7 @@ Baris 37: Menampilkan pesan jika queue kosong.
 Baris 38: Menghentikan fungsi.  
 Baris 39: Menampilkan data paling depan queue tanpa menghapusnya.  
 Baris 40: Baris kosong.  
-Baris 41: Mendefinisikan fungsi display() untuk menampilkan seluruh isi queue.  
+Baris 41: Mendefinisikan fungsi display().  
 Baris 42: Mengecek apakah queue kosong.  
 Baris 43: Menampilkan pesan jika queue kosong.  
 Baris 44: Menghentikan fungsi.  
@@ -74,7 +74,7 @@ Baris 66: Menangani error jika input bukan angka.
 Baris 67: Menampilkan pesan error input.  
 Baris 68: Mengulang kembali ke menu utama.  
 Baris 69: Mengecek jika user memilih menu 1.  
-Baris 70: Meminta user memasukkan langkah catur.  
+Baris 70: Meminta user memasukkan langkah pre-move.  
 Baris 71: Memasukkan langkah ke queue dengan enqueue().  
 Baris 72: Jika user memilih menu 2.  
 Baris 73: Menjalankan dequeue() untuk mengambil move paling depan.  
