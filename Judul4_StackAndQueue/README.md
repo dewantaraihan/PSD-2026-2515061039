@@ -91,3 +91,8 @@ Baris 83: Baris kosong.
 Baris 84: Mengecek apakah file dijalankan langsung sebagai program utama.  
 Baris 85: Menjalankan fungsi main().  
 
+OUTPUT KODE  
+<img width="382" height="590" alt="Output Tugas Akhir" src="https://github.com/user-attachments/assets/edcc29e5-c931-44c7-a692-cb9b8d3a484d" />  
+Output tersebut menampilkan menu utama dari program pre-move catur. User menginputkan menu 1 dan diminta menginput langkah pre-move. Kemudian menu input pre-move dipanggil lagi sehingga sekarang terdapat dua data di dalam queue. Selanjutnya user memilih menu 3 untuk melihat pre-move yang paling depan. Setelah itu user memilih menu 4 untuk melihat seluruh pre-move yang sedang tersimpan. Dan terakhir, User memilih menu 2 untuk menjalankan pre move paling depan sehingga move tersebut dikeluarkan dari queue.  
+
+Link YouTube: https://youtu.be/SPzjL8IEjMc?si=zLFeFAaouCwvhKB0
