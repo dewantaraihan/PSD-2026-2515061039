@@ -1,4 +1,5 @@
-
+PROGRAM SISTEM INVENTORY DALAM GAME  
+Program ini merupakan implementasi struktur data Binary Search Tree (BST) untuk mengelola inventory item dalam game. Setiap item memiliki nama dan nilai attack yang disimpan ke dalam node BST. Program menyediakan beberapa menu utama seperti menambahkan item, menghapus item, menampilkan urutan atk secara ascending, mencari nilai atk tertinggi dan terendah, serta menghitung jumlah item yang tersimpan.  
 
 
 PENJELASAN KODE  
