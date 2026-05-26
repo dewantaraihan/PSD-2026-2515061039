@@ -150,3 +150,12 @@ baris 135: Menampilkan pesan pilihan tidak valid.
 baris 137: Mengecek apakah file dijalankan langsung.  
 baris 138: Menjalankan function main().  
 
+
+PENJELASAN OUTPUT  
+<img width="342" height="433" alt="output 1 tgs akhir" src="https://github.com/user-attachments/assets/9f1e2d23-c644-4e52-89d9-231514494703" />  
+<img width="256" height="487" alt="output 2 tgs akhir" src="https://github.com/user-attachments/assets/f7abe330-800b-46c0-9f8d-0fec78e56b99" />  
+Output pertama menunjukkan proses penambahan item ke dalam BST inventory. User menambahkan tiga item, yaitu Netherite Sword dengan atk 8, Trident dengan atk 7, dan Crossbow dengan atk 10. Program menyimpan data tersebut ke dalam BST berdasarkan nilai atk.Nilai yang pertama diinput menjadi root. Nilai yang lebih kecil akan masuk ke kiri, sedangkan nilai yang lebih besar masuk ke kanan.  
+Saat memilih menu urutkan, program menampilkan nilai atk menggunakan traversal inorder sehingga hasilnya 7, 8, dan 10. Kemudian program menampilkan nilai atk terkecil yaitu 7 dan atk terbesar yaitu 10. Setelah itu program menghitung jumlah item dalam inventory dan menemukan total 3 item. Kemudian item Trident berhasil dihapus dari BST karena ditemukan berdasarkan nama item yang dimasukkan user.  
+
+
+LINK YOUTUBE: https://youtu.be/v-G41Q1VSJ8?si=_oFqfjAJNkW1GM8o
