@@ -12,13 +12,10 @@ class inventoryBST:
     def insert_node(self, root, atk, item):
         if root is None:
             return Node(atk, item)
-
         if atk < root.atk:
             root.left = self.insert_node(root.left, atk, item)
-
         elif atk > root.atk:
             root.right = self.insert_node(root.right, atk, item)
-
         return root
 
     def insert(self, atk, item):
