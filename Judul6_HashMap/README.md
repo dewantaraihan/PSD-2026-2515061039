@@ -3,7 +3,6 @@ Program ini merupakan aplikasi pencarian dan pengelolaan ID pemain Mobile Legend
 
 PENJELASAN KODE  
 <img width="1816" height="5498" alt="output tugas akhir" src="https://github.com/user-attachments/assets/6629dcca-df49-41aa-b6ed-6df5617ea9e7" />  
-  
 Baris 1: Mendefinisikan class SlotState untuk menyimpan status setiap slot pada Hash Map.  
 Baris 2: Membuat konstanta EMPTY bernilai 0 yang menandakan slot kosong.  
 Baris 3: Membuat konstanta OCCUPIED bernilai 1 yang menandakan slot berisi data.  
@@ -126,3 +125,8 @@ Baris 133: Menangani pilihan selain 1, 2, 3, 4, dan 5.
 Baris 134: Menampilkan pesan "Pilihan tidak valid".  
 Baris 137: Memeriksa apakah file dijalankan secara langsung menggunakan kondisi if __name__ == "__main__".  
 Baris 138: Memanggil fungsi main() sehingga program mulai dijalankan.  
+
+
+PENJELASAN OUTPUT  
+<img width="329" height="604" alt="output tugas akhir png" src="https://github.com/user-attachments/assets/7dd0a1df-cb04-4a6f-a5d8-ad12745eeb2b" />  
+Berdasarkan output yang ditampilkan, saat user memilih menu Tampilkan List ID, program menampilkan seluruh data pemain beserta posisi penyimpanannya di dalam tabel Hash Map. Beberapa data berada pada indeks yang berbeda dari hasil hash awal karena terjadi collision, sehingga program perlu menggunakan linear probing untuk mencari slot kosong berikutnya. Pada menu Cari ID, pengguna memasukkan ID 996745429 dan program berhasil menemukan nickname MuradStein. Pada menu Tambah ID, data baru dengan ID 123456 dan nickname cyo berhasil disimpan ke dalam Hash Map. Kemudian pada menu Hapus ID, data dengan ID 123456 berhasil dihapus dan mengubah status slot menjadi DELETED.
