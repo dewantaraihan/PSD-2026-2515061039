@@ -1,5 +1,8 @@
 PROGRAM SISTEM ID DALAM GAME 
-<img width="1816" height="5498" alt="output tugas akhir" src="https://github.com/user-attachments/assets/6629dcca-df49-41aa-b6ed-6df5617ea9e7" />
+Program ini merupakan aplikasi pencarian dan pengelolaan ID pemain Mobile Legends menggunakan struktur data Hash Map dengan metode Open Addressing. Data pemain disimpan dalam bentuk pasangan ID (key) dan nickname (value). Hash Map ini menggunakan metode linear probing untuk menangani collision agar proses penyimpanan dan pencarian data tetap berjalan dengan baik.  
+
+PENJELASAN KODE  
+<img width="1816" height="5498" alt="output tugas akhir" src="https://github.com/user-attachments/assets/6629dcca-df49-41aa-b6ed-6df5617ea9e7" />  
   
 Baris 1: Mendefinisikan class SlotState untuk menyimpan status setiap slot pada Hash Map.  
 Baris 2: Membuat konstanta EMPTY bernilai 0 yang menandakan slot kosong.  
