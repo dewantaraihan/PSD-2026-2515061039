@@ -65,107 +65,61 @@ Baris 71: Menampilkan tulisan "EMPTY".
 Baris 72: Memeriksa apakah slot berstatus DELETED.  
 Baris 73: Menampilkan tulisan "DELETED".  
 Baris 75: Menampilkan pasangan data key dan value yang tersimpan pada slot.  
-Baris 78: Mendefinisikan fungsi utama program bernama main().
-
-Baris 79: Membuat objek hashmap dari class HashMapOpenAddressing.
-Baris 80: Menambahkan data player dengan ID 996745429 dan nickname "MuradStein.".
-
-Baris 81: Menambahkan data player dengan ID 230922394 dan nickname "Mitz".
-
-Baris 82: Menambahkan data player dengan ID 112233440 dan nickname "Mixue".
-
-Baris 83: Menambahkan data player dengan ID 321654987 dan nickname "Ranger Hitam".
-
-Baris 84: Menambahkan data player dengan ID 110100110 dan nickname "Winatak".
-
-Baris 85: Menambahkan data player dengan ID 999999999 dan nickname "somay lemon".
-Baris 87: Membuat variabel pilih dengan nilai awal 0.
-
-Baris 88: Membuat perulangan selama nilai pilih tidak sama dengan 5.
-Baris 89: Menampilkan judul menu "=== Menu Searching ID Mobile Legends ===".
-
-Baris 90: Menampilkan pilihan menu "1. Tampilkan list ID".
-
-Baris 91: Menampilkan pilihan menu "2. Cari ID".
-
-Baris 92: Menampilkan pilihan menu "3. Tambah ID".
-
-Baris 93: Menampilkan pilihan menu "4. Hapus ID".
-
-Baris 94: Menampilkan pilihan menu "5. Keluar".
-Baris 95: Memulai blok try.
-
-Baris 96: Meminta pengguna memasukkan pilihan menu dan menyimpannya ke variabel pilih.
-
-Baris 97: Menangkap kesalahan ValueError.
-
-Baris 98: Menampilkan pesan "Input tidak valid!".
-
-Baris 99: Kembali ke awal perulangan.
-Baris 100: Memeriksa apakah pengguna memilih menu 1.
-
-Baris 101: Memanggil method hashmap.display() untuk menampilkan seluruh isi Hash Map.
-Baris 102: Memeriksa apakah pengguna memilih menu 2.
-
-Baris 103: Memulai blok try.
-
-Baris 104: Meminta input nomor ID dan menyimpannya ke variabel cari_id.
-
-Baris 105: Mencari data menggunakan hashmap.search(cari_id) dan menyimpan hasilnya ke variabel hasil.
-
-Baris 106: Memeriksa apakah data ditemukan.
-
-Baris 107: Menampilkan ID menggunakan hasil.key dan nickname menggunakan hasil.value.
-
-Baris 108: Menangani kondisi jika data tidak ditemukan.
-
-Baris 109: Menampilkan pesan "Nomor ID tidak ditemukan!".
-
-Baris 110: Menangkap kesalahan ValueError.
-
-Baris 111: Menampilkan pesan "Input id harus angka!".
-Baris 112: Memeriksa apakah pengguna memilih menu 3.
-
-Baris 113: Memulai blok try.
-
-Baris 114: Meminta input nomor ID player dan menyimpannya ke variabel tambah_id.
-
-Baris 115: Meminta input nickname player dan menyimpannya ke variabel tambah_nick.
-
-Baris 116: Menambahkan data menggunakan hashmap.insert(tambah_id, tambah_nick).
-
-Baris 117: Menampilkan pesan bahwa ID berhasil ditambahkan.
-
-Baris 118: Menangkap kesalahan ValueError.
-
-Baris 119: Menampilkan pesan "Input id harus angka!".
-Baris 120: Memeriksa apakah pengguna memilih menu 4.
-
-Baris 121: Memulai blok try.
-
-Baris 122: Meminta nomor ID yang akan dihapus dan menyimpannya ke variabel hapus_id.
-
-Baris 123: Mencari data menggunakan hashmap.search(hapus_id) dan menyimpannya ke variabel hapus.
-
-Baris 124: Memeriksa apakah data ditemukan.
-
-Baris 125: Memanggil method hashmap.remove_key(hapus_id) untuk menghapus data.
-
-Baris 126: Menampilkan pesan bahwa ID berhasil dihapus.
-
-Baris 127: Menangani kondisi jika data tidak ditemukan.
-
-Baris 128: Menampilkan pesan bahwa nomor ID tidak ditemukan.
-
-Baris 129: Menangkap kesalahan ValueError.
-
-Baris 130: Menampilkan pesan "input ID harus angka".
-Baris 131: Memeriksa apakah pengguna memilih menu 5.
-
-Baris 132: Menampilkan pesan "Program selesai".
-Baris 133: Menangani pilihan selain 1, 2, 3, 4, dan 5.
-
-Baris 134: Menampilkan pesan "Pilihan tidak valid".
-Baris 137: Memeriksa apakah file dijalankan secara langsung menggunakan kondisi if __name__ == "__main__".
-
-Baris 138: Memanggil fungsi main() sehingga program mulai dijalankan.
+Baris 78: Mendefinisikan fungsi utama program bernama main().  
+Baris 79: Membuat objek hashmap dari class HashMapOpenAddressing.  
+Baris 80: Menambahkan data player dengan ID 996745429 dan nickname "MuradStein.".  
+Baris 81: Menambahkan data player dengan ID 230922394 dan nickname "Mitz".  
+Baris 82: Menambahkan data player dengan ID 112233440 dan nickname "Mixue".  
+Baris 83: Menambahkan data player dengan ID 321654987 dan nickname "Ranger Hitam".  
+Baris 84: Menambahkan data player dengan ID 110100110 dan nickname "Winatak".  
+Baris 85: Menambahkan data player dengan ID 999999999 dan nickname "somay lemon".  
+Baris 87: Membuat variabel pilih dengan nilai awal 0.  
+Baris 88: Membuat perulangan selama nilai pilih tidak sama dengan 5.  
+Baris 89: Menampilkan judul menu "=== Menu Searching ID Mobile Legends ===".  
+Baris 90: Menampilkan pilihan menu "1. Tampilkan list ID".  
+Baris 91: Menampilkan pilihan menu "2. Cari ID".  
+Baris 92: Menampilkan pilihan menu "3. Tambah ID".  
+Baris 93: Menampilkan pilihan menu "4. Hapus ID".  
+Baris 94: Menampilkan pilihan menu "5. Keluar".  
+Baris 95: Memulai blok try.  
+Baris 96: Meminta pengguna memasukkan pilihan menu dan menyimpannya ke variabel pilih.  
+Baris 97: Menangkap kesalahan ValueError.  
+Baris 98: Menampilkan pesan "Input tidak valid!".  
+Baris 99: Kembali ke awal perulangan.  
+Baris 100: Memeriksa apakah pengguna memilih menu 1.  
+Baris 101: Memanggil method hashmap.display() untuk menampilkan seluruh isi Hash Map.  
+Baris 102: Memeriksa apakah pengguna memilih menu 2.  
+Baris 103: Memulai blok try.  
+Baris 104: Meminta input nomor ID dan menyimpannya ke variabel cari_id.  
+Baris 105: Mencari data menggunakan hashmap.search(cari_id) dan menyimpan hasilnya ke variabel hasil.  
+Baris 106: Memeriksa apakah data ditemukan.  
+Baris 107: Menampilkan ID menggunakan hasil.key dan nickname menggunakan hasil.value.  
+Baris 108: Menangani kondisi jika data tidak ditemukan.  
+Baris 109: Menampilkan pesan "Nomor ID tidak ditemukan!".  
+Baris 110: Menangkap kesalahan ValueError.  
+Baris 111: Menampilkan pesan "Input id harus angka!".  
+Baris 112: Memeriksa apakah pengguna memilih menu 3.  
+Baris 113: Memulai blok try.  
+Baris 114: Meminta input nomor ID player dan menyimpannya ke variabel tambah_id.  
+Baris 115: Meminta input nickname player dan menyimpannya ke variabel tambah_nick.  
+Baris 116: Menambahkan data menggunakan hashmap.insert(tambah_id, tambah_nick).  
+Baris 117: Menampilkan pesan bahwa ID berhasil ditambahkan.  
+Baris 118: Menangkap kesalahan ValueError.  
+Baris 119: Menampilkan pesan "Input id harus angka!".  
+Baris 120: Memeriksa apakah pengguna memilih menu 4.  
+Baris 121: Memulai blok try.  
+Baris 122: Meminta nomor ID yang akan dihapus dan menyimpannya ke variabel hapus_id.  
+Baris 123: Mencari data menggunakan hashmap.search(hapus_id) dan menyimpannya ke variabel hapus.  
+Baris 124: Memeriksa apakah data ditemukan.  
+Baris 125: Memanggil method hashmap.remove_key(hapus_id) untuk menghapus data.  
+Baris 126: Menampilkan pesan bahwa ID berhasil dihapus.  
+Baris 127: Menangani kondisi jika data tidak ditemukan.  
+Baris 128: Menampilkan pesan bahwa nomor ID tidak ditemukan.  
+Baris 129: Menangkap kesalahan ValueError.  
+Baris 130: Menampilkan pesan "input ID harus angka".  
+Baris 131: Memeriksa apakah pengguna memilih menu 5.  
+Baris 132: Menampilkan pesan "Program selesai".  
+Baris 133: Menangani pilihan selain 1, 2, 3, 4, dan 5.  
+Baris 134: Menampilkan pesan "Pilihan tidak valid".  
+Baris 137: Memeriksa apakah file dijalankan secara langsung menggunakan kondisi if __name__ == "__main__".  
+Baris 138: Memanggil fungsi main() sehingga program mulai dijalankan.  
